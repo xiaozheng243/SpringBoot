@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/blog?useSSL=false&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&useSSL=false # 数据库URL
     username: root # 数据库用户名
-    password: suiyu243 # 数据库密码
+    password: suiyu123 # 数据库密码
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
