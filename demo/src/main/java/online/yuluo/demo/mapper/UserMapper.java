@@ -1,7 +1,6 @@
 package online.yuluo.demo.mapper;
 
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import online.yuluo.demo.domain.User;
 import org.springframework.stereotype.Repository;
 
@@ -11,7 +10,7 @@ import java.util.List;
  * @author yuluo
  */
 @Repository
-public interface UserMapper extends BaseMapper<User> {
+public interface UserMapper{
 
     //    @Select("select * from user")
 
@@ -21,5 +20,5 @@ public interface UserMapper extends BaseMapper<User> {
      * @param user user
      * @return List<User> user list
      */
-//    List<User> queryUsers(User user);
+    List<User> queryUsers(User user);
 }

@@ -1,6 +1,6 @@
 package online.yuluo.demo.domain;
 
-import com.baomidou.mybatisplus.annotation.TableName;
+//import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
@@ -15,7 +15,7 @@ import java.util.Date;
 //@Setter
 //@ToString
 @Data
-@TableName(value = "user")
+//@TableName(value = "user")
 public class User {
 
     private Long id;

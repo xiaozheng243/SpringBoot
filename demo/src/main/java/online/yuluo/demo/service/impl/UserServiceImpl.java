@@ -21,13 +21,13 @@ public class UserServiceImpl implements IUserService {
 
     @Override
     public List<User> getUserList(User user) {
-//        return userMapper.queryUsers(user);
-        return null;
+        return userMapper.queryUsers(user);
     }
 
 
     @Override
-    public List<User> getAllUserList(){
-        return userMapper.selectList(null);
+    public List<User> getAllUserList() {
+//        return userMapper.selectList(null);
+        return null;
     }
 }
